@@ -8,17 +8,7 @@
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
-}
-
-*{
-    font-weight: 400;
-}
-
-body{
-    color: var(--branco);
-    background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
-}
+…}
 
 .titulo-principal{
     font-family: var(--roboto-mono);

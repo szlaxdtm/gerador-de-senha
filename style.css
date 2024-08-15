@@ -8,7 +8,17 @@
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
-…}
+}
+
+*{
+    font-weight: 400;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
 
 .titulo-principal{
     font-family: var(--roboto-mono);
@@ -43,18 +53,7 @@
 #campo-senha:focus{
     outline: none;
 }
-lo-secundario{
-    font-size: 24px;
-}
-…
-#campo-senha:focus{
-    outline: none;
-}
 
-.conteudo{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .conteudo{
     max-width: 1200px;
     margin: 0 auto;
